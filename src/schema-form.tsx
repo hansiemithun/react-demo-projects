@@ -4,13 +4,14 @@ import { Theme as AntDTheme } from '@rjsf/antd';
 import { JSONSchema7 } from "json-schema";
 
 import 'antd/dist/antd.css';
+import widgets from './widgets';
 
 const Form = withTheme(AntDTheme);
 
 interface SchemaFormProps {
   schema: JSONSchema7,
   uiSchema: any,
-  onChange?:() => void,
+  onChange?:(val: any) => void,
   onSubmit?:() => void,
   onError?:() => void,
 }
@@ -21,6 +22,8 @@ export const SchemaForm = ({ schema, uiSchema, onChange, onSubmit, onError }: Sc
         uiSchema={uiSchema}
         onChange={onChange}
         onSubmit={onSubmit}
-        onError={onError} />
+        onError={onError}
+        widgets={{ ...widgets }}
+    />
   )
 }
