@@ -4,7 +4,6 @@ import { JSONSchema7 } from "json-schema";
 
 import './App.css';
 
-
 const schema: JSONSchema7 = {
   title: "Todo",
   type: "object",

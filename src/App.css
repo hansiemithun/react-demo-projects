@@ -1,10 +1,11 @@
-html, body {height:100%; margin:0px !important; padding:20px; background: #333;}
+html, body {height:100%; margin:0px !important; padding:10px; background: #333;}
 
 .App {
-  background: #ddd;
+  background: #fff;
   padding: 50px;
-  height: 90vh;
+  height: 95vh;
   width: 40%;
   margin: 0 auto;
+  padding-bottom: 250px;
   position: relative;
 }
