@@ -7,7 +7,7 @@ import './layout.css';
 const { Header, Content, Sider } = Layout;
 
 export function MenuLayout() {
-  const [activeMenu, setActiveMenu] = useState(MENUS[0]);
+  const [activeMenu, setActiveMenu] = useState(MENUS[1]);
   const changeMenu = (menu: any) => setActiveMenu(menu);
 
   return (

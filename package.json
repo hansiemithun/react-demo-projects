@@ -48,6 +48,8 @@
   },
   "devDependencies": {
     "@ant-design/icons": "4.7.0",
-    "@types/react-jsonschema-form": "^1.7.7"
+    "@types/react-jsonschema-form": "^1.7.7",
+    "vis-data": "6.6.1",
+    "vis-network": "7.8.0"
   }
 }
